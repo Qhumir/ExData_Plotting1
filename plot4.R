@@ -33,8 +33,10 @@ data <- data %>%
 
 ########################## Plotting
 
-par(mfrow=c(2,2))
+
 png("plot4.png",width = 480, height = 480, unit = "px")
+
+par(mfrow=c(2,2))
 
 plot(data$DateTime,data$Global_active_power,
      type = "l", xlab = NA, ylab = "Global Active Power (kilowatts)")
