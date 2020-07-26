@@ -33,7 +33,7 @@ data <- data %>%
 
 ########################## Plotting
 
-
+# This line of code allows that the abbreviations of the days appears in English
 Sys.setlocale(category = "LC_ALL", locale = "english")
 
 png("plot2.png",width = 480, height = 480, unit = "px")
