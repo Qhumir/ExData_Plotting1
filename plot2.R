@@ -33,6 +33,9 @@ data <- data %>%
 
 ########################## Plotting
 
+
+Sys.setlocale(category = "LC_ALL", locale = "english")
+
 png("plot2.png",width = 480, height = 480, unit = "px")
 
   plot(data$DateTime,data$Global_active_power,

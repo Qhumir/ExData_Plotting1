@@ -33,6 +33,8 @@ data <- data %>%
 
 ########################## Plotting
 
+Sys.setlocale(category = "LC_ALL", locale = "english")
+
 png("plot3.png",width = 480, height = 480, unit = "px")
 
 plot(data$DateTime,data$Sub_metering_1,

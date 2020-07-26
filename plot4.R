@@ -33,6 +33,7 @@ data <- data %>%
 
 ########################## Plotting
 
+Sys.setlocale(category = "LC_ALL", locale = "english")
 
 png("plot4.png",width = 480, height = 480, unit = "px")
 

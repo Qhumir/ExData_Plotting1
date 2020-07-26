@@ -38,8 +38,3 @@ png("plot1.png",width = 480, height = 480, unit = "px")
           xlab = "Global Active Power (kilowatts)")
 dev.off()
 
-
-
-
-
-
